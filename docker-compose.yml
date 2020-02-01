@@ -1,11 +1,8 @@
 version: "3"
 
 services:
-  status-lights:
-    container_name: status-lights
+  rpi-status:
+    container_name: rpi-status
     privileged: true
-    image: ghsapp/status-lights
-    network_mode: "host"
+    image: mattgleich/rpi-status
     restart: unless-stopped
-    volumes:
-      - ~/secrets:/statusLights/secrets
