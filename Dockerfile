@@ -10,7 +10,7 @@ RUN pip3 install -r requirements.txt
 
 # Copying over files
 COPY /rpiStatus /rpiStatus
-WORKDIR /statusLights
+WORKDIR /rpiStatus
 
 # Running program
 CMD ["python3", "main.py"]

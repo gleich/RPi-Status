@@ -6,11 +6,11 @@ Show the status of your RPi's CPU using the Pimoroni Blinkt.
 
 Updates all the lights to the corresponding colors as shown below every 5 seconds
 
-![CPU<33 Percent = Green](https://badgen.net/badge/CPU%3E33%20Percent/%20%20%20%20%20%20%20%20%20%20%20%20%20/green)
+![CPU<33 Percent = Green](https://badgen.net/badge/CPU%3C33%20Percent/%20%20%20%20%20%20%20%20%20%20%20%20%20/green)
 
-![CPU<66 Percent = Yellow](https://badgen.net/badge/CPU%3E66%20Percent/%20%20%20%20%20%20%20%20%20%20%20%20%20/yellow)
+![CPU<66 Percent = Yellow](https://badgen.net/badge/CPU%3C66%20Percent/%20%20%20%20%20%20%20%20%20%20%20%20%20/yellow)
 
-![CPU<=100 Percent = Red](https://badgen.net/badge/CPU%3E=100%20Percent/%20%20%20%20%20%20%20%20%20%20%20%20%20/red)
+![CPU<=100 Percent = Red](https://badgen.net/badge/CPU%3C=100%20Percent/%20%20%20%20%20%20%20%20%20%20%20%20%20/red)
 
 ## Setup
 
