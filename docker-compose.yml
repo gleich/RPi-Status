@@ -6,3 +6,7 @@ services:
     privileged: true
     image: mattgleich/rpi-status
     restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: 50m
